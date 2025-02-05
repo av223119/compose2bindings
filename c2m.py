@@ -2,8 +2,6 @@
 
 import argparse
 import re
-import pprint
-from textwrap import indent
 import typing
 
 re_keysym = re.compile(r"#define XK_(?P<ksym>\S+)\s+.*U\+(?P<code>[0-9A-Za-z]+)")
