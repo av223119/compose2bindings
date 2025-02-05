@@ -3852,4 +3852,4 @@
       "\U005F" = ("insertText:", "\U2379"); /* <Multi_key> <U2375> <underscore> : ⍹ ⍵ _ APL FUNCTIONAL SYMBOL OMEGA UNDERBAR */
     };
   };
-};
+}

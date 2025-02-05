@@ -24,7 +24,7 @@ def _print(data: dict[str, typing.Any], indent: int = 0):
     if indent == 0:
         print("{")
         _print(data, 2)
-        print("};")
+        print("}")
         return
     for k, v in data.items():
         if isinstance(v, str):
