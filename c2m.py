@@ -10,9 +10,21 @@ re_entry = re.compile(r'(?P<seq>.+):\s+"(?P<txt>.+)"\s*(?P<sym>.*)\s+#\s*(?P<com
 re_dead = re.compile(r"<dead_")
 re_multi = re.compile(r"<Multi_key>")
 re_codepoint = re.compile("U[0-9A-Fa-f]+")
+re_control = re.compile("U(007E|0024|005E|0040|0023)")
 
 def _insert(data: dict[str, typing.Any], seq: list[str], symbol: str, comment: str) -> None:
-    idx = f"\\{seq[0].upper()}"
+    # Following symbols mean special keys in the mapping
+    # ~	: Option key
+    # $	: Shift key
+    # ^	: Control key
+    # @	: Command key
+    # # : Keys on numpad
+    # Also, the strings being evaluated, so even the Unicode codepoints are
+    # resolved; additionally, backslashes are evaluated as well, so we really
+    # need six backslashes in python, which converts to three in the dict,
+    # which in turn means one backslash and \U<NUM>
+    idx = seq[0].upper()
+    idx = f"\\\\\\{idx}" if re_control.match(idx) else f"\\{idx}"
     if len(seq) == 1:
         data[idx] = f'("insertText:", "{symbol}"); /* {comment} */'
         return

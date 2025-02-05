@@ -2,7 +2,7 @@
   "\UF710" = {
     "\U002D" = {
       "\U0020" = ("insertText:", "\U007E"); /* <Multi_key> <minus> <space> : ~ TILDE */
-      "\U005E" = ("insertText:", "\U00AF"); /* <Multi_key> <minus> <asciicircum> : ¯ MACRON */
+      "\\\U005E" = ("insertText:", "\U00AF"); /* <Multi_key> <minus> <asciicircum> : ¯ MACRON */
       "\U0028" = ("insertText:", "\U007B"); /* <Multi_key> <minus> <parenleft> : { LEFT CURLY BRACKET */
       "\U0029" = ("insertText:", "\U007D"); /* <Multi_key> <minus> <parenright> : } RIGHT CURLY BRACKET */
       "\U002B" = ("insertText:", "\U00B1"); /* <Multi_key> <minus> <plus> : ± PLUS-MINUS SIGN */
@@ -149,7 +149,7 @@
       "\U004D" = ("insertText:", "\U1E3E"); /* <Multi_key> <apostrophe> <M> : Ḿ LATIN CAPITAL LETTER M WITH ACUTE */
       "\U006D" = ("insertText:", "\U1E3F"); /* <Multi_key> <apostrophe> <m> : ḿ LATIN SMALL LETTER M WITH ACUTE */
       "\U00D5" = ("insertText:", "\U1E4C"); /* <Multi_key> <apostrophe> <Otilde> : Ṍ LATIN CAPITAL LETTER O WITH TILDE AND ACUTE */
-      "\U007E" = {
+      "\\\U007E" = {
         "\U004F" = ("insertText:", "\U1E4C"); /* <Multi_key> <apostrophe> <asciitilde> <O> : Ṍ LATIN CAPITAL LETTER O WITH TILDE AND ACUTE */
         "\U006F" = ("insertText:", "\U1E4D"); /* <Multi_key> <apostrophe> <asciitilde> <o> : ṍ LATIN SMALL LETTER O WITH TILDE AND ACUTE */
         "\U0055" = ("insertText:", "\U1E78"); /* <Multi_key> <apostrophe> <asciitilde> <U> : Ṹ LATIN CAPITAL LETTER U WITH TILDE AND ACUTE */
@@ -165,7 +165,7 @@
       "\U0057" = ("insertText:", "\U1E82"); /* <Multi_key> <apostrophe> <W> : Ẃ LATIN CAPITAL LETTER W WITH ACUTE */
       "\U0077" = ("insertText:", "\U1E83"); /* <Multi_key> <apostrophe> <w> : ẃ LATIN SMALL LETTER W WITH ACUTE */
       "\U00C2" = ("insertText:", "\U1EA4"); /* <Multi_key> <apostrophe> <Acircumflex> : Ấ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE */
-      "\U005E" = {
+      "\\\U005E" = {
         "\U0041" = ("insertText:", "\U1EA4"); /* <Multi_key> <apostrophe> <asciicircum> <A> : Ấ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE */
         "\U0061" = ("insertText:", "\U1EA5"); /* <Multi_key> <apostrophe> <asciicircum> <a> : ấ LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE */
         "\U0045" = ("insertText:", "\U1EBE"); /* <Multi_key> <apostrophe> <asciicircum> <E> : Ế LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE */
@@ -281,9 +281,9 @@
       "\U0060" = ("insertText:", "\U00F2"); /* <Multi_key> <o> <grave> : ò LATIN SMALL LETTER O WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00F3"); /* <Multi_key> <o> <acute> : ó LATIN SMALL LETTER O WITH ACUTE */
       "\U0027" = ("insertText:", "\U00F3"); /* <Multi_key> <o> <apostrophe> : ó LATIN SMALL LETTER O WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00F4"); /* <Multi_key> <o> <asciicircum> : ô LATIN SMALL LETTER O WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00F4"); /* <Multi_key> <o> <asciicircum> : ô LATIN SMALL LETTER O WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00F4"); /* <Multi_key> <o> <greater> : ô LATIN SMALL LETTER O WITH CIRCUMFLEX */
-      "\U007E" = ("insertText:", "\U00F5"); /* <Multi_key> <o> <asciitilde> : õ LATIN SMALL LETTER O WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00F5"); /* <Multi_key> <o> <asciitilde> : õ LATIN SMALL LETTER O WITH TILDE */
       "\U00A8" = ("insertText:", "\U00F6"); /* <Multi_key> <o> <diaeresis> : ö LATIN SMALL LETTER O WITH DIAERESIS */
       "\U0022" = ("insertText:", "\U00F6"); /* <Multi_key> <o> <quotedbl> : ö LATIN SMALL LETTER O WITH DIAERESIS */
       "\U002F" = ("insertText:", "\U00F8"); /* <Multi_key> <o> <slash> : ø LATIN SMALL LETTER O WITH STROKE */
@@ -312,12 +312,12 @@
     "\U0030" = {
       "\U002A" = ("insertText:", "\U00B0"); /* <Multi_key> <0> <asterisk> : ° DEGREE SIGN */
       "\U0033" = ("insertText:", "\U2189"); /* <Multi_key> <0> <3> : ↉ VULGAR FRACTION ZERO THIRDS */
-      "\U007E" = ("insertText:", "\U236C"); /* <Multi_key> <0> <asciitilde> : ⍬ 0 ~ APL FUNCTIONAL SYMBOL ZILDE */
+      "\\\U007E" = ("insertText:", "\U236C"); /* <Multi_key> <0> <asciitilde> : ⍬ 0 ~ APL FUNCTIONAL SYMBOL ZILDE */
     };
     "\U005F" = {
       "\U0020" = ("insertText:", "\U00AF"); /* <Multi_key> <underscore> <space> : ¯ MACRON */
       "\U005F" = ("insertText:", "\U00AF"); /* <Multi_key> <underscore> <underscore> : ¯ MACRON */
-      "\U005E" = ("insertText:", "\U00AF"); /* <Multi_key> <underscore> <asciicircum> : ¯ MACRON */
+      "\\\U005E" = ("insertText:", "\U00AF"); /* <Multi_key> <underscore> <asciicircum> : ¯ MACRON */
       "\U0041" = ("insertText:", "\U0100"); /* <Multi_key> <underscore> <A> : Ā LATIN CAPITAL LETTER A WITH MACRON */
       "\U0061" = ("insertText:", "\U0101"); /* <Multi_key> <underscore> <a> : ā LATIN SMALL LETTER A WITH MACRON */
       "\U0045" = ("insertText:", "\U0112"); /* <Multi_key> <underscore> <E> : Ē LATIN CAPITAL LETTER E WITH MACRON */
@@ -359,7 +359,7 @@
       "\U00D6" = ("insertText:", "\U022A"); /* <Multi_key> <underscore> <Odiaeresis> : Ȫ LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON */
       "\U00F6" = ("insertText:", "\U022B"); /* <Multi_key> <underscore> <odiaeresis> : ȫ LATIN SMALL LETTER O WITH DIAERESIS AND MACRON */
       "\U00D5" = ("insertText:", "\U022C"); /* <Multi_key> <underscore> <Otilde> : Ȭ LATIN CAPITAL LETTER O WITH TILDE AND MACRON */
-      "\U007E" = {
+      "\\\U007E" = {
         "\U004F" = ("insertText:", "\U022C"); /* <Multi_key> <underscore> <asciitilde> <O> : Ȭ LATIN CAPITAL LETTER O WITH TILDE AND MACRON */
         "\U006F" = ("insertText:", "\U022D"); /* <Multi_key> <underscore> <asciitilde> <o> : ȭ LATIN SMALL LETTER O WITH TILDE AND MACRON */
       };
@@ -1137,7 +1137,7 @@
       "\U0020" = ("insertText:", "\U02D9"); /* <Multi_key> <period> <space> : ˙ DOT ABOVE */
       "\U002E" = ("insertText:", "\U2026"); /* <Multi_key> <period> <period> : … HORIZONTAL ELLIPSIS */
       "\U002D" = ("insertText:", "\U00B7"); /* <Multi_key> <period> <minus> : · MIDDLE DOT */
-      "\U005E" = ("insertText:", "\U00B7"); /* <Multi_key> <period> <asciicircum> : · MIDDLE DOT */
+      "\\\U005E" = ("insertText:", "\U00B7"); /* <Multi_key> <period> <asciicircum> : · MIDDLE DOT */
       "\U003D" = ("insertText:", "\U2022"); /* <Multi_key> <period> <equal> : • BULLET */
       "\U003C" = ("insertText:", "\U2039"); /* <Multi_key> <period> <less> : ‹ SINGLE LEFT-POINTING ANGLE QUOTATION MARK */
       "\U003E" = ("insertText:", "\U203A"); /* <Multi_key> <period> <greater> : › SINGLE RIGHT-POINTING ANGLE QUOTATION MARK */
@@ -1257,7 +1257,7 @@
       "\U0048" = ("insertText:", "\U1E26"); /* <Multi_key> <quotedbl> <H> : Ḧ LATIN CAPITAL LETTER H WITH DIAERESIS */
       "\U0068" = ("insertText:", "\U1E27"); /* <Multi_key> <quotedbl> <h> : ḧ LATIN SMALL LETTER H WITH DIAERESIS */
       "\U00D5" = ("insertText:", "\U1E4E"); /* <Multi_key> <quotedbl> <Otilde> : Ṏ LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS */
-      "\U007E" = {
+      "\\\U007E" = {
         "\U004F" = ("insertText:", "\U1E4E"); /* <Multi_key> <quotedbl> <asciitilde> <O> : Ṏ LATIN CAPITAL LETTER O WITH TILDE AND DIAERESIS */
         "\U006F" = ("insertText:", "\U1E4F"); /* <Multi_key> <quotedbl> <asciitilde> <o> : ṏ LATIN SMALL LETTER O WITH TILDE AND DIAERESIS */
       };
@@ -1378,9 +1378,9 @@
       "\U0060" = ("insertText:", "\U00C0"); /* <Multi_key> <A> <grave> : À LATIN CAPITAL LETTER A WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00C1"); /* <Multi_key> <A> <acute> : Á LATIN CAPITAL LETTER A WITH ACUTE */
       "\U0027" = ("insertText:", "\U00C1"); /* <Multi_key> <A> <apostrophe> : Á LATIN CAPITAL LETTER A WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00C2"); /* <Multi_key> <A> <asciicircum> : Â LATIN CAPITAL LETTER A WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00C2"); /* <Multi_key> <A> <asciicircum> : Â LATIN CAPITAL LETTER A WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00C2"); /* <Multi_key> <A> <greater> : Â LATIN CAPITAL LETTER A WITH CIRCUMFLEX */
-      "\U007E" = ("insertText:", "\U00C3"); /* <Multi_key> <A> <asciitilde> : Ã LATIN CAPITAL LETTER A WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00C3"); /* <Multi_key> <A> <asciitilde> : Ã LATIN CAPITAL LETTER A WITH TILDE */
       "\U0022" = ("insertText:", "\U00C4"); /* <Multi_key> <A> <quotedbl> : Ä LATIN CAPITAL LETTER A WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00C4"); /* <Multi_key> <A> <diaeresis> : Ä LATIN CAPITAL LETTER A WITH DIAERESIS */
       "\U002A" = ("insertText:", "\U00C5"); /* <Multi_key> <A> <asterisk> : Å LATIN CAPITAL LETTER A WITH RING ABOVE */
@@ -1412,7 +1412,7 @@
     "\U002F" = {
       "\U002F" = ("insertText:", "\U005C"); /* <Multi_key> <slash> <slash> : \\ REVERSE SOLIDUS */
       "\U003C" = ("insertText:", "\U005C"); /* <Multi_key> <slash> <less> : \\ REVERSE SOLIDUS */
-      "\U005E" = ("insertText:", "\U007C"); /* <Multi_key> <slash> <asciicircum> : | VERTICAL LINE */
+      "\\\U005E" = ("insertText:", "\U007C"); /* <Multi_key> <slash> <asciicircum> : | VERTICAL LINE */
       "\U0063" = ("insertText:", "\U00A2"); /* <Multi_key> <slash> <c> : ¢ CENT SIGN */
       "\U0043" = ("insertText:", "\U20A1"); /* <Multi_key> <slash> <C> : ₡ COLON SIGN */
       "\U006D" = ("insertText:", "\U20A5"); /* <Multi_key> <slash> <m> : ₥ MILL SIGN */
@@ -1450,7 +1450,7 @@
       "\U002D" = ("insertText:", "\U233F"); /* <Multi_key> <slash> <minus> : ⌿ / - APL FUNCTIONAL SYMBOL SLASH BAR */
       "\U2395" = ("insertText:", "\U2341"); /* <Multi_key> <slash> <U2395> : ⍁ / ⎕ APL FUNCTIONAL SYMBOL QUAD SLASH */
     };
-    "\U005E" = {
+    "\\\U005E" = {
       "\U002F" = ("insertText:", "\U007C"); /* <Multi_key> <asciicircum> <slash> : | VERTICAL LINE */
       "\U002E" = ("insertText:", "\U00B7"); /* <Multi_key> <asciicircum> <period> : · MIDDLE DOT */
       "\U005F" = {
@@ -1648,9 +1648,9 @@
       "\U0060" = ("insertText:", "\U00D2"); /* <Multi_key> <O> <grave> : Ò LATIN CAPITAL LETTER O WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00D3"); /* <Multi_key> <O> <acute> : Ó LATIN CAPITAL LETTER O WITH ACUTE */
       "\U0027" = ("insertText:", "\U00D3"); /* <Multi_key> <O> <apostrophe> : Ó LATIN CAPITAL LETTER O WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00D4"); /* <Multi_key> <O> <asciicircum> : Ô LATIN CAPITAL LETTER O WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00D4"); /* <Multi_key> <O> <asciicircum> : Ô LATIN CAPITAL LETTER O WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00D4"); /* <Multi_key> <O> <greater> : Ô LATIN CAPITAL LETTER O WITH CIRCUMFLEX */
-      "\U007E" = ("insertText:", "\U00D5"); /* <Multi_key> <O> <asciitilde> : Õ LATIN CAPITAL LETTER O WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00D5"); /* <Multi_key> <O> <asciitilde> : Õ LATIN CAPITAL LETTER O WITH TILDE */
       "\U0022" = ("insertText:", "\U00D6"); /* <Multi_key> <O> <quotedbl> : Ö LATIN CAPITAL LETTER O WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00D6"); /* <Multi_key> <O> <diaeresis> : Ö LATIN CAPITAL LETTER O WITH DIAERESIS */
       "\U002F" = ("insertText:", "\U00D8"); /* <Multi_key> <O> <slash> : Ø LATIN CAPITAL LETTER O WITH STROKE */
@@ -1682,7 +1682,7 @@
       "\U0052" = ("insertText:", "\U211D"); /* <Multi_key> <R> <R> : ℝ DOUBLE-STRUCK CAPITAL R */
     };
     "\U0021" = {
-      "\U005E" = ("insertText:", "\U00A6"); /* <Multi_key> <exclam> <asciicircum> : ¦ BROKEN BAR */
+      "\\\U005E" = ("insertText:", "\U00A6"); /* <Multi_key> <exclam> <asciicircum> : ¦ BROKEN BAR */
       "\U0021" = ("insertText:", "\U00A1"); /* <Multi_key> <exclam> <exclam> : ¡ INVERTED EXCLAMATION MARK */
       "\U003F" = ("insertText:", "\U203D"); /* <Multi_key> <exclam> <question> : ‽ INTERROBANG */
       "\U0042" = ("insertText:", "\U1E04"); /* <Multi_key> <exclam> <B> : Ḅ LATIN CAPITAL LETTER B WITH DOT BELOW */
@@ -1741,7 +1741,7 @@
       "\U0041" = ("insertText:", "\U1EA2"); /* <Multi_key> <question> <A> : Ả LATIN CAPITAL LETTER A WITH HOOK ABOVE */
       "\U0061" = ("insertText:", "\U1EA3"); /* <Multi_key> <question> <a> : ả LATIN SMALL LETTER A WITH HOOK ABOVE */
       "\U00C2" = ("insertText:", "\U1EA8"); /* <Multi_key> <question> <Acircumflex> : Ẩ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE */
-      "\U005E" = {
+      "\\\U005E" = {
         "\U0041" = ("insertText:", "\U1EA8"); /* <Multi_key> <question> <asciicircum> <A> : Ẩ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE */
         "\U0061" = ("insertText:", "\U1EA9"); /* <Multi_key> <question> <asciicircum> <a> : ẩ LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE */
         "\U0045" = ("insertText:", "\U1EC2"); /* <Multi_key> <question> <asciicircum> <E> : Ể LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE */
@@ -1790,7 +1790,7 @@
       "\U0042" = ("insertText:", "\U0E3F"); /* <Multi_key> <bar> <B> : ฿ THAI CURRENCY SYMBOL BAHT */
       "\U0047" = ("insertText:", "\U20B2"); /* <Multi_key> <bar> <G> : ₲ GUARANI SIGN */
       "\U0043" = ("insertText:", "\U20B5"); /* <Multi_key> <bar> <C> : ₵ CEDI SIGN */
-      "\U005E" = ("insertText:", "\U2191"); /* <Multi_key> <bar> <asciicircum> : ↑ UPWARDS ARROW */
+      "\\\U005E" = ("insertText:", "\U2191"); /* <Multi_key> <bar> <asciicircum> : ↑ UPWARDS ARROW */
       "\U0076" = ("insertText:", "\U2193"); /* <Multi_key> <bar> <v> : ↓ DOWNWARDS ARROW */
       "\U25CB" = ("insertText:", "\U233D"); /* <Multi_key> <bar> <U25cb> : ⌽ | ○ APL FUNCTIONAL SYMBOL CIRCLE STILE */
       "\U2190" = ("insertText:", "\U2345"); /* <Multi_key> <bar> <U2190> : ⍅ | ← APL FUNCTIONAL SYMBOL LEFTWARDS VANE */
@@ -1799,7 +1799,7 @@
       "\U2207" = ("insertText:", "\U2352"); /* <Multi_key> <bar> <U2207> : ⍒ | ∇ APL FUNCTIONAL SYMBOL DEL STILE */
       "\U222A" = ("insertText:", "\U2366"); /* <Multi_key> <bar> <U222a> : ⍦ | ∪ APL FUNCTIONAL SYMBOL DOWN SHOE STILE */
       "\U2282" = ("insertText:", "\U2367"); /* <Multi_key> <bar> <U2282> : ⍧ | ⊂ APL FUNCTIONAL SYMBOL LEFT SHOE STILE */
-      "\U007E" = ("insertText:", "\U236D"); /* <Multi_key> <bar> <asciitilde> : ⍭ | ~ APL FUNCTIONAL SYMBOL STILE TILDE */
+      "\\\U007E" = ("insertText:", "\U236D"); /* <Multi_key> <bar> <asciitilde> : ⍭ | ~ APL FUNCTIONAL SYMBOL STILE TILDE */
     };
     "\U0025" = {
       "\U006F" = ("insertText:", "\U2030"); /* <Multi_key> <percent> <o> : ‰ PER MILLE SIGN */
@@ -1809,9 +1809,9 @@
       "\U0060" = ("insertText:", "\U00E0"); /* <Multi_key> <a> <grave> : à LATIN SMALL LETTER A WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00E1"); /* <Multi_key> <a> <acute> : á LATIN SMALL LETTER A WITH ACUTE */
       "\U0027" = ("insertText:", "\U00E1"); /* <Multi_key> <a> <apostrophe> : á LATIN SMALL LETTER A WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00E2"); /* <Multi_key> <a> <asciicircum> : â LATIN SMALL LETTER A WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00E2"); /* <Multi_key> <a> <asciicircum> : â LATIN SMALL LETTER A WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00E2"); /* <Multi_key> <a> <greater> : â LATIN SMALL LETTER A WITH CIRCUMFLEX */
-      "\U007E" = ("insertText:", "\U00E3"); /* <Multi_key> <a> <asciitilde> : ã LATIN SMALL LETTER A WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00E3"); /* <Multi_key> <a> <asciitilde> : ã LATIN SMALL LETTER A WITH TILDE */
       "\U0022" = ("insertText:", "\U00E4"); /* <Multi_key> <a> <quotedbl> : ä LATIN SMALL LETTER A WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00E4"); /* <Multi_key> <a> <diaeresis> : ä LATIN SMALL LETTER A WITH DIAERESIS */
       "\U002A" = ("insertText:", "\U00E5"); /* <Multi_key> <a> <asterisk> : å LATIN SMALL LETTER A WITH RING ABOVE */
@@ -1866,11 +1866,11 @@
       "\U0060" = ("insertText:", "\U00EC"); /* <Multi_key> <i> <grave> : ì LATIN SMALL LETTER I WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00ED"); /* <Multi_key> <i> <acute> : í LATIN SMALL LETTER I WITH ACUTE */
       "\U0027" = ("insertText:", "\U00ED"); /* <Multi_key> <i> <apostrophe> : í LATIN SMALL LETTER I WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00EE"); /* <Multi_key> <i> <asciicircum> : î LATIN SMALL LETTER I WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00EE"); /* <Multi_key> <i> <asciicircum> : î LATIN SMALL LETTER I WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00EE"); /* <Multi_key> <i> <greater> : î LATIN SMALL LETTER I WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00EF"); /* <Multi_key> <i> <quotedbl> : ï LATIN SMALL LETTER I WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00EF"); /* <Multi_key> <i> <diaeresis> : ï LATIN SMALL LETTER I WITH DIAERESIS */
-      "\U007E" = ("insertText:", "\U0129"); /* <Multi_key> <i> <asciitilde> : ĩ LATIN SMALL LETTER I WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U0129"); /* <Multi_key> <i> <asciitilde> : ĩ LATIN SMALL LETTER I WITH TILDE */
       "\U005F" = ("insertText:", "\U012B"); /* <Multi_key> <i> <underscore> : ī LATIN SMALL LETTER I WITH MACRON */
       "\U002D" = ("insertText:", "\U012B"); /* <Multi_key> <i> <minus> : ī LATIN SMALL LETTER I WITH MACRON */
       "\U003B" = ("insertText:", "\U012F"); /* <Multi_key> <i> <semicolon> : į LATIN SMALL LETTER I WITH OGONEK */
@@ -1883,11 +1883,11 @@
       "\U0060" = ("insertText:", "\U00CC"); /* <Multi_key> <I> <grave> : Ì LATIN CAPITAL LETTER I WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00CD"); /* <Multi_key> <I> <acute> : Í LATIN CAPITAL LETTER I WITH ACUTE */
       "\U0027" = ("insertText:", "\U00CD"); /* <Multi_key> <I> <apostrophe> : Í LATIN CAPITAL LETTER I WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00CE"); /* <Multi_key> <I> <asciicircum> : Î LATIN CAPITAL LETTER I WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00CE"); /* <Multi_key> <I> <asciicircum> : Î LATIN CAPITAL LETTER I WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00CE"); /* <Multi_key> <I> <greater> : Î LATIN CAPITAL LETTER I WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00CF"); /* <Multi_key> <I> <quotedbl> : Ï LATIN CAPITAL LETTER I WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00CF"); /* <Multi_key> <I> <diaeresis> : Ï LATIN CAPITAL LETTER I WITH DIAERESIS */
-      "\U007E" = ("insertText:", "\U0128"); /* <Multi_key> <I> <asciitilde> : Ĩ LATIN CAPITAL LETTER I WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U0128"); /* <Multi_key> <I> <asciitilde> : Ĩ LATIN CAPITAL LETTER I WITH TILDE */
       "\U005F" = ("insertText:", "\U012A"); /* <Multi_key> <I> <underscore> : Ī LATIN CAPITAL LETTER I WITH MACRON */
       "\U002D" = ("insertText:", "\U012A"); /* <Multi_key> <I> <minus> : Ī LATIN CAPITAL LETTER I WITH MACRON */
       "\U003B" = ("insertText:", "\U012E"); /* <Multi_key> <I> <semicolon> : Į LATIN CAPITAL LETTER I WITH OGONEK */
@@ -1948,7 +1948,7 @@
       "\U003D" = ("insertText:", "\U00A5"); /* <Multi_key> <Y> <equal> : ¥ YEN SIGN */
       "\U00B4" = ("insertText:", "\U00DD"); /* <Multi_key> <Y> <acute> : Ý LATIN CAPITAL LETTER Y WITH ACUTE */
       "\U0027" = ("insertText:", "\U00DD"); /* <Multi_key> <Y> <apostrophe> : Ý LATIN CAPITAL LETTER Y WITH ACUTE */
-      "\U005E" = ("insertText:", "\U0176"); /* <Multi_key> <Y> <asciicircum> : Ŷ LATIN CAPITAL LETTER Y WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U0176"); /* <Multi_key> <Y> <asciicircum> : Ŷ LATIN CAPITAL LETTER Y WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U0178"); /* <Multi_key> <Y> <quotedbl> : Ÿ LATIN CAPITAL LETTER Y WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U0178"); /* <Multi_key> <Y> <diaeresis> : Ÿ LATIN CAPITAL LETTER Y WITH DIAERESIS */
     };
@@ -1979,7 +1979,7 @@
       "\U0423" = ("insertText:", "\U04F2"); /* <Multi_key> <equal> <Cyrillic_U> : Ӳ CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE */
       "\U0443" = ("insertText:", "\U04F3"); /* <Multi_key> <equal> <Cyrillic_u> : ӳ CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE */
       "\U003C" = ("insertText:", "\U21D0"); /* <Multi_key> <equal> <less> : ⇐ LEFTWARDS DOUBLE ARROW */
-      "\U005E" = ("insertText:", "\U21D1"); /* <Multi_key> <equal> <asciicircum> : ⇑ UPWARDS DOUBLE ARROW */
+      "\\\U005E" = ("insertText:", "\U21D1"); /* <Multi_key> <equal> <asciicircum> : ⇑ UPWARDS DOUBLE ARROW */
       "\U003E" = ("insertText:", "\U21D2"); /* <Multi_key> <equal> <greater> : ⇒ RIGHTWARDS DOUBLE ARROW */
       "\U0076" = ("insertText:", "\U21D3"); /* <Multi_key> <equal> <v> : ⇓ DOWNWARDS DOUBLE ARROW */
       "\U002F" = ("insertText:", "\U2260"); /* <Multi_key> <KP_Equal> <slash> : ≠ NOT EQUAL TO */
@@ -1992,7 +1992,7 @@
       "\U0027" = ("insertText:", "\U00FD"); /* <Multi_key> <y> <apostrophe> : ý LATIN SMALL LETTER Y WITH ACUTE */
       "\U0022" = ("insertText:", "\U00FF"); /* <Multi_key> <y> <quotedbl> : ÿ LATIN SMALL LETTER Y WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00FF"); /* <Multi_key> <y> <diaeresis> : ÿ LATIN SMALL LETTER Y WITH DIAERESIS */
-      "\U005E" = ("insertText:", "\U0177"); /* <Multi_key> <y> <asciicircum> : ŷ LATIN SMALL LETTER Y WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U0177"); /* <Multi_key> <y> <asciicircum> : ŷ LATIN SMALL LETTER Y WITH CIRCUMFLEX */
     };
     "\U0042" = {
       "\U007C" = ("insertText:", "\U0E3F"); /* <Multi_key> <B> <bar> : ฿ THAI CURRENCY SYMBOL BAHT */
@@ -2007,7 +2007,7 @@
       "\U003D" = ("insertText:", "\U20A6"); /* <Multi_key> <N> <equal> : ₦ NAIRA SIGN */
       "\U006F" = ("insertText:", "\U2116"); /* <Multi_key> <N> <o> : № NUMERO SIGN */
       "\U004F" = ("insertText:", "\U2116"); /* <Multi_key> <N> <O> : № NUMERO SIGN */
-      "\U007E" = ("insertText:", "\U00D1"); /* <Multi_key> <N> <asciitilde> : Ñ LATIN CAPITAL LETTER N WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00D1"); /* <Multi_key> <N> <asciitilde> : Ñ LATIN CAPITAL LETTER N WITH TILDE */
       "\U0027" = ("insertText:", "\U0143"); /* <Multi_key> <N> <apostrophe> : Ń LATIN CAPITAL LETTER N WITH ACUTE */
       "\U002C" = ("insertText:", "\U0145"); /* <Multi_key> <N> <comma> : Ņ LATIN CAPITAL LETTER N WITH CEDILLA */
       "\U003C" = ("insertText:", "\U0147"); /* <Multi_key> <N> <less> : Ň LATIN CAPITAL LETTER N WITH CARON */
@@ -2023,7 +2023,7 @@
     };
     "\U0057" = {
       "\U003D" = ("insertText:", "\U20A9"); /* <Multi_key> <W> <equal> : ₩ WON SIGN */
-      "\U005E" = ("insertText:", "\U0174"); /* <Multi_key> <W> <asciicircum> : Ŵ LATIN CAPITAL LETTER W WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U0174"); /* <Multi_key> <W> <asciicircum> : Ŵ LATIN CAPITAL LETTER W WITH CIRCUMFLEX */
     };
     "\U0064" = {
       "\U003D" = ("insertText:", "\U20AB"); /* <Multi_key> <d> <equal> : ₫ DONG SIGN */
@@ -2039,7 +2039,7 @@
       "\U0060" = ("insertText:", "\U00C8"); /* <Multi_key> <E> <grave> : È LATIN CAPITAL LETTER E WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00C9"); /* <Multi_key> <E> <acute> : É LATIN CAPITAL LETTER E WITH ACUTE */
       "\U0027" = ("insertText:", "\U00C9"); /* <Multi_key> <E> <apostrophe> : É LATIN CAPITAL LETTER E WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00CA"); /* <Multi_key> <E> <asciicircum> : Ê LATIN CAPITAL LETTER E WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00CA"); /* <Multi_key> <E> <asciicircum> : Ê LATIN CAPITAL LETTER E WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00CA"); /* <Multi_key> <E> <greater> : Ê LATIN CAPITAL LETTER E WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00CB"); /* <Multi_key> <E> <quotedbl> : Ë LATIN CAPITAL LETTER E WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00CB"); /* <Multi_key> <E> <diaeresis> : Ë LATIN CAPITAL LETTER E WITH DIAERESIS */
@@ -2056,7 +2056,7 @@
       "\U0060" = ("insertText:", "\U00E8"); /* <Multi_key> <e> <grave> : è LATIN SMALL LETTER E WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00E9"); /* <Multi_key> <e> <acute> : é LATIN SMALL LETTER E WITH ACUTE */
       "\U0027" = ("insertText:", "\U00E9"); /* <Multi_key> <e> <apostrophe> : é LATIN SMALL LETTER E WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00EA"); /* <Multi_key> <e> <asciicircum> : ê LATIN SMALL LETTER E WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00EA"); /* <Multi_key> <e> <asciicircum> : ê LATIN SMALL LETTER E WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00EA"); /* <Multi_key> <e> <greater> : ê LATIN SMALL LETTER E WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00EB"); /* <Multi_key> <e> <quotedbl> : ë LATIN SMALL LETTER E WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00EB"); /* <Multi_key> <e> <diaeresis> : ë LATIN SMALL LETTER E WITH DIAERESIS */
@@ -2109,14 +2109,14 @@
     "\U0437" = {
       "\U003D" = ("insertText:", "\U20BD"); /* <Multi_key> <Cyrillic_ze> <equal> : ₽ ROUBLE SIGN */
     };
-    "\U0023" = {
+    "\\\U0023" = {
       "\U0071" = ("insertText:", "\U2669"); /* <Multi_key> <numbersign> <q> : ♩ QUARTER NOTE */
       "\U0065" = ("insertText:", "\U266A"); /* <Multi_key> <numbersign> <e> : ♪ EIGHTH NOTE */
       "\U0045" = ("insertText:", "\U266B"); /* <Multi_key> <numbersign> <E> : ♫ BEAMED EIGHTH NOTES */
       "\U0053" = ("insertText:", "\U266C"); /* <Multi_key> <numbersign> <S> : ♬ BEAMED SIXTEENTH NOTES */
       "\U0062" = ("insertText:", "\U266D"); /* <Multi_key> <numbersign> <b> : ♭ MUSIC FLAT SIGN */
       "\U0066" = ("insertText:", "\U266E"); /* <Multi_key> <numbersign> <f> : ♮ MUSIC NATURAL SIGN */
-      "\U0023" = ("insertText:", "\U266F"); /* <Multi_key> <numbersign> <numbersign> : ♯ MUSIC SHARP SIGN */
+      "\\\U0023" = ("insertText:", "\U266F"); /* <Multi_key> <numbersign> <numbersign> : ♯ MUSIC SHARP SIGN */
     };
     "\U043F" = {
       "\U0430" = ("insertText:", "\U00A7"); /* <Multi_key> <Cyrillic_pe> <Cyrillic_a> : § SECTION SIGN */
@@ -2149,7 +2149,7 @@
       "\U2395" = ("insertText:", "\U2360"); /* <Multi_key> <colon> <U2395> : ⍠ : ⎕ APL FUNCTIONAL SYMBOL QUAD COLON */
     };
     "\U0031" = {
-      "\U005E" = ("insertText:", "\U00B9"); /* <Multi_key> <1> <asciicircum> : ¹ SUPERSCRIPT ONE */
+      "\\\U005E" = ("insertText:", "\U00B9"); /* <Multi_key> <1> <asciicircum> : ¹ SUPERSCRIPT ONE */
       "\U0034" = ("insertText:", "\U00BC"); /* <Multi_key> <1> <4> : ¼ VULGAR FRACTION ONE QUARTER */
       "\U0032" = ("insertText:", "\U00BD"); /* <Multi_key> <1> <2> : ½ VULGAR FRACTION ONE HALF */
       "\U0037" = ("insertText:", "\U2150"); /* <Multi_key> <1> <7> : ⅐ VULGAR FRACTION ONE SEVENTH */
@@ -2163,12 +2163,12 @@
       "\U0038" = ("insertText:", "\U215B"); /* <Multi_key> <1> <8> : ⅛ VULGAR FRACTION ONE EIGHTH */
     };
     "\U0032" = {
-      "\U005E" = ("insertText:", "\U00B2"); /* <Multi_key> <2> <asciicircum> : ² SUPERSCRIPT TWO */
+      "\\\U005E" = ("insertText:", "\U00B2"); /* <Multi_key> <2> <asciicircum> : ² SUPERSCRIPT TWO */
       "\U0033" = ("insertText:", "\U2154"); /* <Multi_key> <2> <3> : ⅔ VULGAR FRACTION TWO THIRDS */
       "\U0035" = ("insertText:", "\U2156"); /* <Multi_key> <2> <5> : ⅖ VULGAR FRACTION TWO FIFTHS */
     };
     "\U0033" = {
-      "\U005E" = ("insertText:", "\U00B3"); /* <Multi_key> <3> <asciicircum> : ³ SUPERSCRIPT THREE */
+      "\\\U005E" = ("insertText:", "\U00B3"); /* <Multi_key> <3> <asciicircum> : ³ SUPERSCRIPT THREE */
       "\U0034" = ("insertText:", "\U00BE"); /* <Multi_key> <3> <4> : ¾ VULGAR FRACTION THREE QUARTERS */
       "\U0035" = ("insertText:", "\U2157"); /* <Multi_key> <3> <5> : ⅗ VULGAR FRACTION THREE FIFTHS */
       "\U0038" = ("insertText:", "\U215C"); /* <Multi_key> <3> <8> : ⅜ VULGAR FRACTION THREE EIGHTHS */
@@ -2178,7 +2178,7 @@
       "\U0060" = ("insertText:", "\U00F9"); /* <Multi_key> <u> <grave> : ù LATIN SMALL LETTER U WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00FA"); /* <Multi_key> <u> <acute> : ú LATIN SMALL LETTER U WITH ACUTE */
       "\U0027" = ("insertText:", "\U00FA"); /* <Multi_key> <u> <apostrophe> : ú LATIN SMALL LETTER U WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00FB"); /* <Multi_key> <u> <asciicircum> : û LATIN SMALL LETTER U WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00FB"); /* <Multi_key> <u> <asciicircum> : û LATIN SMALL LETTER U WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00FB"); /* <Multi_key> <u> <greater> : û LATIN SMALL LETTER U WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00FC"); /* <Multi_key> <u> <quotedbl> : ü LATIN SMALL LETTER U WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00FC"); /* <Multi_key> <u> <diaeresis> : ü LATIN SMALL LETTER U WITH DIAERESIS */
@@ -2192,7 +2192,7 @@
       "\U0069" = ("insertText:", "\U012D"); /* <Multi_key> <u> <i> : ĭ LATIN SMALL LETTER I WITH BREVE */
       "\U004F" = ("insertText:", "\U014E"); /* <Multi_key> <u> <O> : Ŏ LATIN CAPITAL LETTER O WITH BREVE */
       "\U006F" = ("insertText:", "\U014F"); /* <Multi_key> <u> <o> : ŏ LATIN SMALL LETTER O WITH BREVE */
-      "\U007E" = ("insertText:", "\U0169"); /* <Multi_key> <u> <asciitilde> : ũ LATIN SMALL LETTER U WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U0169"); /* <Multi_key> <u> <asciitilde> : ũ LATIN SMALL LETTER U WITH TILDE */
       "\U005F" = ("insertText:", "\U016B"); /* <Multi_key> <u> <underscore> : ū LATIN SMALL LETTER U WITH MACRON */
       "\U002D" = ("insertText:", "\U016B"); /* <Multi_key> <u> <minus> : ū LATIN SMALL LETTER U WITH MACRON */
       "\U0055" = ("insertText:", "\U016C"); /* <Multi_key> <u> <U> : Ŭ LATIN CAPITAL LETTER U WITH BREVE */
@@ -2245,7 +2245,7 @@
       "\U0057" = ("insertText:", "\U1E80"); /* <Multi_key> <grave> <W> : Ẁ LATIN CAPITAL LETTER W WITH GRAVE */
       "\U0077" = ("insertText:", "\U1E81"); /* <Multi_key> <grave> <w> : ẁ LATIN SMALL LETTER W WITH GRAVE */
       "\U00C2" = ("insertText:", "\U1EA6"); /* <Multi_key> <grave> <Acircumflex> : Ầ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE */
-      "\U005E" = {
+      "\\\U005E" = {
         "\U0041" = ("insertText:", "\U1EA6"); /* <Multi_key> <grave> <asciicircum> <A> : Ầ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND GRAVE */
         "\U0061" = ("insertText:", "\U1EA7"); /* <Multi_key> <grave> <asciicircum> <a> : ầ LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE */
         "\U0045" = ("insertText:", "\U1EC0"); /* <Multi_key> <grave> <asciicircum> <E> : Ề LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND GRAVE */
@@ -2442,7 +2442,7 @@
       "\U004D" = ("insertText:", "\U1E3E"); /* <Multi_key> <acute> <M> : Ḿ LATIN CAPITAL LETTER M WITH ACUTE */
       "\U006D" = ("insertText:", "\U1E3F"); /* <Multi_key> <acute> <m> : ḿ LATIN SMALL LETTER M WITH ACUTE */
       "\U00D5" = ("insertText:", "\U1E4C"); /* <Multi_key> <acute> <Otilde> : Ṍ LATIN CAPITAL LETTER O WITH TILDE AND ACUTE */
-      "\U007E" = {
+      "\\\U007E" = {
         "\U004F" = ("insertText:", "\U1E4C"); /* <Multi_key> <acute> <asciitilde> <O> : Ṍ LATIN CAPITAL LETTER O WITH TILDE AND ACUTE */
         "\U006F" = ("insertText:", "\U1E4D"); /* <Multi_key> <acute> <asciitilde> <o> : ṍ LATIN SMALL LETTER O WITH TILDE AND ACUTE */
         "\U0055" = ("insertText:", "\U1E78"); /* <Multi_key> <acute> <asciitilde> <U> : Ṹ LATIN CAPITAL LETTER U WITH TILDE AND ACUTE */
@@ -2458,7 +2458,7 @@
       "\U0057" = ("insertText:", "\U1E82"); /* <Multi_key> <acute> <W> : Ẃ LATIN CAPITAL LETTER W WITH ACUTE */
       "\U0077" = ("insertText:", "\U1E83"); /* <Multi_key> <acute> <w> : ẃ LATIN SMALL LETTER W WITH ACUTE */
       "\U00C2" = ("insertText:", "\U1EA4"); /* <Multi_key> <acute> <Acircumflex> : Ấ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE */
-      "\U005E" = {
+      "\\\U005E" = {
         "\U0041" = ("insertText:", "\U1EA4"); /* <Multi_key> <acute> <asciicircum> <A> : Ấ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND ACUTE */
         "\U0061" = ("insertText:", "\U1EA5"); /* <Multi_key> <acute> <asciicircum> <a> : ấ LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE */
         "\U0045" = ("insertText:", "\U1EBE"); /* <Multi_key> <acute> <asciicircum> <E> : Ế LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND ACUTE */
@@ -2539,7 +2539,7 @@
       "\U044F" = ("insertText:", "я́"); /* <Multi_key> <acute> <Cyrillic_ya> : я́ CYRILLIC SMALL LETTER YA plus COMBINING ACUTE */
       "\U042F" = ("insertText:", "Я́"); /* <Multi_key> <acute> <Cyrillic_YA> : Я́ CYRILLIC CAPITAL LETTER YA plus COMBINING ACUTE */
     };
-    "\U007E" = {
+    "\\\U007E" = {
       "\U0041" = ("insertText:", "\U00C3"); /* <Multi_key> <asciitilde> <A> : Ã LATIN CAPITAL LETTER A WITH TILDE */
       "\U004E" = ("insertText:", "\U00D1"); /* <Multi_key> <asciitilde> <N> : Ñ LATIN CAPITAL LETTER N WITH TILDE */
       "\U004F" = ("insertText:", "\U00D5"); /* <Multi_key> <asciitilde> <O> : Õ LATIN CAPITAL LETTER O WITH TILDE */
@@ -2553,7 +2553,7 @@
       "\U0056" = ("insertText:", "\U1E7C"); /* <Multi_key> <asciitilde> <V> : Ṽ LATIN CAPITAL LETTER V WITH TILDE */
       "\U0076" = ("insertText:", "\U1E7D"); /* <Multi_key> <asciitilde> <v> : ṽ LATIN SMALL LETTER V WITH TILDE */
       "\U00C2" = ("insertText:", "\U1EAA"); /* <Multi_key> <asciitilde> <Acircumflex> : Ẫ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE */
-      "\U005E" = {
+      "\\\U005E" = {
         "\U0041" = ("insertText:", "\U1EAA"); /* <Multi_key> <asciitilde> <asciicircum> <A> : Ẫ LATIN CAPITAL LETTER A WITH CIRCUMFLEX AND TILDE */
         "\U0061" = ("insertText:", "\U1EAB"); /* <Multi_key> <asciitilde> <asciicircum> <a> : ẫ LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE */
         "\U0045" = ("insertText:", "\U1EC4"); /* <Multi_key> <asciitilde> <asciicircum> <E> : Ễ LATIN CAPITAL LETTER E WITH CIRCUMFLEX AND TILDE */
@@ -2618,7 +2618,7 @@
       };
       "\U03C5" = ("insertText:", "\U1FE6"); /* <Multi_key> <asciitilde> <Greek_upsilon> : ῦ GREEK SMALL LETTER UPSILON WITH PERISPOMENI */
       "\U03C9" = ("insertText:", "\U1FF6"); /* <Multi_key> <asciitilde> <Greek_omega> : ῶ GREEK SMALL LETTER OMEGA WITH PERISPOMENI */
-      "\U007E" = ("insertText:", "\U2248"); /* <Multi_key> <asciitilde> <asciitilde> : ≈ ~ ~ ALMOST EQUAL TO */
+      "\\\U007E" = ("insertText:", "\U2248"); /* <Multi_key> <asciitilde> <asciitilde> : ≈ ~ ~ ALMOST EQUAL TO */
       "\U00A8" = ("insertText:", "\U2368"); /* <Multi_key> <asciitilde> <diaeresis> : ⍨ ~ ¨ APL FUNCTIONAL SYMBOL TILDE DIAERESIS */
       "\U2207" = ("insertText:", "\U236B"); /* <Multi_key> <asciitilde> <U2207> : ⍫ ~ ∇ APL FUNCTIONAL SYMBOL DEL TILDE */
       "\U0030" = ("insertText:", "\U236C"); /* <Multi_key> <asciitilde> <0> : ⍬ ~ 0 APL FUNCTIONAL SYMBOL ZILDE */
@@ -2641,7 +2641,7 @@
       "\U0059" = ("insertText:", "\U0178"); /* <Multi_key> <diaeresis> <Y> : Ÿ LATIN CAPITAL LETTER Y WITH DIAERESIS */
       "\U00B4" = ("insertText:", "\U0385"); /* <Multi_key> <diaeresis> <acute> : ΅ GREEK DIALYTIKA TONOS */
       "\U0027" = ("insertText:", "\U0385"); /* <Multi_key> <diaeresis> <apostrophe> : ΅ GREEK DIALYTIKA TONOS */
-      "\U007E" = ("insertText:", "\U1FC1"); /* <Multi_key> <diaeresis> <asciitilde> : ῁ GREEK DIALYTIKA AND PERISPOMENI */
+      "\\\U007E" = ("insertText:", "\U1FC1"); /* <Multi_key> <diaeresis> <asciitilde> : ῁ GREEK DIALYTIKA AND PERISPOMENI */
       "\U0060" = ("insertText:", "\U1FED"); /* <Multi_key> <diaeresis> <grave> : ῭ GREEK DIALYTIKA AND VARIA */
       "\U22A4" = ("insertText:", "\U2361"); /* <Multi_key> <diaeresis> <U22a4> : ⍡ ¨ ⊤ APL FUNCTIONAL SYMBOL UP TACK DIAERESIS */
       "\U2207" = ("insertText:", "\U2362"); /* <Multi_key> <diaeresis> <U2207> : ⍢ ¨ ∇ APL FUNCTIONAL SYMBOL DEL DIAERESIS */
@@ -2689,7 +2689,7 @@
       "\U0060" = ("insertText:", "\U00D9"); /* <Multi_key> <U> <grave> : Ù LATIN CAPITAL LETTER U WITH GRAVE */
       "\U00B4" = ("insertText:", "\U00DA"); /* <Multi_key> <U> <acute> : Ú LATIN CAPITAL LETTER U WITH ACUTE */
       "\U0027" = ("insertText:", "\U00DA"); /* <Multi_key> <U> <apostrophe> : Ú LATIN CAPITAL LETTER U WITH ACUTE */
-      "\U005E" = ("insertText:", "\U00DB"); /* <Multi_key> <U> <asciicircum> : Û LATIN CAPITAL LETTER U WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U00DB"); /* <Multi_key> <U> <asciicircum> : Û LATIN CAPITAL LETTER U WITH CIRCUMFLEX */
       "\U003E" = ("insertText:", "\U00DB"); /* <Multi_key> <U> <greater> : Û LATIN CAPITAL LETTER U WITH CIRCUMFLEX */
       "\U0022" = ("insertText:", "\U00DC"); /* <Multi_key> <U> <quotedbl> : Ü LATIN CAPITAL LETTER U WITH DIAERESIS */
       "\U00A8" = ("insertText:", "\U00DC"); /* <Multi_key> <U> <diaeresis> : Ü LATIN CAPITAL LETTER U WITH DIAERESIS */
@@ -2703,7 +2703,7 @@
       "\U0069" = ("insertText:", "\U012D"); /* <Multi_key> <U> <i> : ĭ LATIN SMALL LETTER I WITH BREVE */
       "\U004F" = ("insertText:", "\U014E"); /* <Multi_key> <U> <O> : Ŏ LATIN CAPITAL LETTER O WITH BREVE */
       "\U006F" = ("insertText:", "\U014F"); /* <Multi_key> <U> <o> : ŏ LATIN SMALL LETTER O WITH BREVE */
-      "\U007E" = ("insertText:", "\U0168"); /* <Multi_key> <U> <asciitilde> : Ũ LATIN CAPITAL LETTER U WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U0168"); /* <Multi_key> <U> <asciitilde> : Ũ LATIN CAPITAL LETTER U WITH TILDE */
       "\U005F" = ("insertText:", "\U016A"); /* <Multi_key> <U> <underscore> : Ū LATIN CAPITAL LETTER U WITH MACRON */
       "\U002D" = ("insertText:", "\U016A"); /* <Multi_key> <U> <minus> : Ū LATIN CAPITAL LETTER U WITH MACRON */
       "\U0055" = ("insertText:", "\U016C"); /* <Multi_key> <U> <U> : Ŭ LATIN CAPITAL LETTER U WITH BREVE */
@@ -2747,7 +2747,7 @@
       "\U00B4" = ("insertText:", "j́"); /* <Multi_key> <j> <acute> : j́ LATIN SMALL LETTER J plus COMBINING ACUTE */
     };
     "\U006E" = {
-      "\U007E" = ("insertText:", "\U00F1"); /* <Multi_key> <n> <asciitilde> : ñ LATIN SMALL LETTER N WITH TILDE */
+      "\\\U007E" = ("insertText:", "\U00F1"); /* <Multi_key> <n> <asciitilde> : ñ LATIN SMALL LETTER N WITH TILDE */
       "\U0027" = ("insertText:", "\U0144"); /* <Multi_key> <n> <apostrophe> : ń LATIN SMALL LETTER N WITH ACUTE */
       "\U002C" = ("insertText:", "\U0146"); /* <Multi_key> <n> <comma> : ņ LATIN SMALL LETTER N WITH CEDILLA */
       "\U003C" = ("insertText:", "\U0148"); /* <Multi_key> <n> <less> : ň LATIN SMALL LETTER N WITH CARON */
@@ -2803,7 +2803,7 @@
       "\U00D6" = ("insertText:", "\U022A"); /* <Multi_key> <macron> <Odiaeresis> : Ȫ LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON */
       "\U00F6" = ("insertText:", "\U022B"); /* <Multi_key> <macron> <odiaeresis> : ȫ LATIN SMALL LETTER O WITH DIAERESIS AND MACRON */
       "\U00D5" = ("insertText:", "\U022C"); /* <Multi_key> <macron> <Otilde> : Ȭ LATIN CAPITAL LETTER O WITH TILDE AND MACRON */
-      "\U007E" = {
+      "\\\U007E" = {
         "\U004F" = ("insertText:", "\U022C"); /* <Multi_key> <macron> <asciitilde> <O> : Ȭ LATIN CAPITAL LETTER O WITH TILDE AND MACRON */
         "\U006F" = ("insertText:", "\U022D"); /* <Multi_key> <macron> <asciitilde> <o> : ȭ LATIN SMALL LETTER O WITH TILDE AND MACRON */
       };
@@ -2894,7 +2894,7 @@
       "\U006B" = ("insertText:", "\U0138"); /* <Multi_key> <k> <k> : ĸ LATIN SMALL LETTER KRA */
     };
     "\U0077" = {
-      "\U005E" = ("insertText:", "\U0175"); /* <Multi_key> <w> <asciicircum> : ŵ LATIN SMALL LETTER W WITH CIRCUMFLEX */
+      "\\\U005E" = ("insertText:", "\U0175"); /* <Multi_key> <w> <asciicircum> : ŵ LATIN SMALL LETTER W WITH CIRCUMFLEX */
     };
     "\U005A" = {
       "\U0027" = ("insertText:", "\U0179"); /* <Multi_key> <Z> <apostrophe> : Ź LATIN CAPITAL LETTER Z WITH ACUTE */
@@ -3020,7 +3020,7 @@
         "\U03B7" = ("insertText:", "\U1FC4"); /* <Multi_key> <Greek_iota> <apostrophe> <Greek_eta> : ῄ GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI */
         "\U03C9" = ("insertText:", "\U1FF4"); /* <Multi_key> <Greek_iota> <apostrophe> <Greek_omega> : ῴ GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI */
       };
-      "\U007E" = {
+      "\\\U007E" = {
         "\U0029" = {
           "\U03B1" = ("insertText:", "\U1F86"); /* <Multi_key> <Greek_iota> <asciitilde> <parenright> <Greek_alpha> : ᾆ GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI */
           "\U0391" = ("insertText:", "\U1F8E"); /* <Multi_key> <Greek_iota> <asciitilde> <parenright> <Greek_ALPHA> : ᾎ GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI */
@@ -3743,12 +3743,12 @@
     "\U2227" = {
       "\U2228" = ("insertText:", "\U22C4"); /* <Multi_key> <U2227> <U2228> : ⋄ ∧ ∨ DIAMOND OPERATOR */
       "\U2395" = ("insertText:", "\U2353"); /* <Multi_key> <U2227> <U2395> : ⍓ ∧ ⎕ APL FUNCTIONAL SYMBOL QUAD UP CARET */
-      "\U007E" = ("insertText:", "\U2372"); /* <Multi_key> <U2227> <asciitilde> : ⍲ ∧ ~ APL FUNCTIONAL SYMBOL UP CARET TILDE */
+      "\\\U007E" = ("insertText:", "\U2372"); /* <Multi_key> <U2227> <asciitilde> : ⍲ ∧ ~ APL FUNCTIONAL SYMBOL UP CARET TILDE */
     };
     "\U2228" = {
       "\U2227" = ("insertText:", "\U22C4"); /* <Multi_key> <U2228> <U2227> : ⋄ ∨ ∧ DIAMOND OPERATOR */
       "\U2395" = ("insertText:", "\U234C"); /* <Multi_key> <U2228> <U2395> : ⍌ ∨ ⎕ APL FUNCTIONAL SYMBOL QUAD DOWN CARET */
-      "\U007E" = ("insertText:", "\U2371"); /* <Multi_key> <U2228> <asciitilde> : ⍱ ∨ ~ APL FUNCTIONAL SYMBOL DOWN CARET TILDE */
+      "\\\U007E" = ("insertText:", "\U2371"); /* <Multi_key> <U2228> <asciitilde> : ⍱ ∨ ~ APL FUNCTIONAL SYMBOL DOWN CARET TILDE */
     };
     "\U22A5" = {
       "\U22A4" = ("insertText:", "\U2336"); /* <Multi_key> <U22a5> <U22a4> : ⌶ ⊥ ⊤ APL FUNCTIONAL SYMBOL I-BEAM */
@@ -3827,7 +3827,7 @@
       "\U007C" = ("insertText:", "\U2352"); /* <Multi_key> <U2207> <bar> : ⍒ ∇ | APL FUNCTIONAL SYMBOL DEL STILE */
       "\U2395" = ("insertText:", "\U2354"); /* <Multi_key> <U2207> <U2395> : ⍔ ∇ ⎕ APL FUNCTIONAL SYMBOL QUAD DEL */
       "\U00A8" = ("insertText:", "\U2362"); /* <Multi_key> <U2207> <diaeresis> : ⍢ ∇ ¨ APL FUNCTIONAL SYMBOL DEL DIAERESIS */
-      "\U007E" = ("insertText:", "\U236B"); /* <Multi_key> <U2207> <asciitilde> : ⍫ ∇ ~ APL FUNCTIONAL SYMBOL DEL TILDE */
+      "\\\U007E" = ("insertText:", "\U236B"); /* <Multi_key> <U2207> <asciitilde> : ⍫ ∇ ~ APL FUNCTIONAL SYMBOL DEL TILDE */
     };
     "\U2193" = {
       "\U002D" = ("insertText:", "\U2356"); /* <Multi_key> <U2193> <minus> : ⍖ ↓ - APL FUNCTIONAL SYMBOL DOWNWARDS VANE */
